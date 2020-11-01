@@ -1,0 +1,109 @@
+html {
+  width: 100%;
+}
+body {
+  background-color: #111111;
+}
+ul {
+  list-style: none;
+  background: url('Mooninvert.jpg');
+  filter: contrast(210%);
+
+
+}
+.meteor {
+border-radius: 266px 245px 164px 264px;
+padding: 25px 26px;
+background: url('/Moonclose.jpg');
+background-repeat: no-repeat;
+background-size: 155px 160px;
+position: absolute;
+animation: mymove 16.5s linear infinite;
+animation-direction: forward;
+ 
+}
+
+.meteor2 {
+  border-radius: 284px 245px 264px 164px;
+  padding: 25px 26px;
+background: url('/Moonclose.jpg');
+background-repeat: no-repeat;
+background-size: 155px 160px;
+  position: absolute;
+  animation: mymove2 14.5s linear infinite;
+  animation-direction: forward;
+ 
+}
+
+.meteor3 {
+    border-radius: 266px 245px 164px 264px;
+    padding: 25px 26px;
+  background: url('/Moonclose.jpg');
+  background-repeat: no-repeat;
+  background-size: 155px 160px;
+    position: absolute;
+  animation: mymove3 21.5s linear infinite;
+  animation-direction: forward;
+
+}
+
+.meteor4 {
+    border-radius: 266px 245px 164px 264px;
+    padding: 25px 26px;
+  background: url('/Moonclose.jpg');
+  background-repeat: no-repeat;
+  background-size: 155px 160px;
+    position: absolute;
+  animation: mymove4 13.5s linear infinite;
+  animation-direction: forward;
+
+}
+   .meteor5 {
+border-radius: 266px 245px 164px 264px;
+padding: 25px 26px;
+background: url('/Moonclose.jpg');
+background-repeat: no-repeat;
+background-size: 155px 160px;
+position: absolute;
+animation: mymove5 27s linear infinite;
+animation-direction: forward;
+
+}
+     @keyframes mymove {
+  0%   {top: 0px; left: 0px; filter: brightness(90%); }
+  25%  {top: 200px; left: 200px; filter: brightness(80%); }
+  50%  {top: 400px; left: 400px; filter: brightness(70%);}
+  75%  {top: 600px; left:600px; filter: brightness(60%);}
+  100% {top: 800px; left: 800px; filter: brightness(50%);}
+}
+
+   @keyframes mymove2 {
+  0%   {top: 0px; right: 0px; filter: brightness(90%); }
+  25%  {top: 200px; right: 200px; filter: brightness(80%);}
+  50%  {top: 400px; right: 400px; filter: brightness(70%);}
+  75%  {top: 600px; right:600px; filter: brightness(60%);}
+  100% {top: 800px; right: 800px; filter: brightness(50%);}
+}
+
+   @keyframes mymove3 {
+  0%   {top: 0px; left: 50%; filter: brightness(90%); }
+  25%  {top: 200px; left: 50%; filter: brightness(80%);}
+  50%  {top: 400px; left: 50%; filter: brightness(70%);}
+  75%  {top: 600px; left:50%; filter: brightness(60%);}
+  100% {top: 800px; left: 50%; filter: brightness(50%);}
+}
+  @keyframes mymove4 {
+  0%   {top: 0px; left: 35%; filter: brightness(90%); }
+  25%  {top: 200px; left: 45%; filter: brightness(80%);}
+  50%  {top: 400px; left: 55%; filter: brightness(70%);}
+  75%  {top: 600px; left:65%; filter: brightness(60%);}
+  100% {top: 800px; left: 75%; filter: brightness(50%);}
+}
+
+  @keyframes mymove5 {
+  0%   {top: 0px; left: 15%; filter: brightness(90%); }
+  25%  {top: 200px; left: 20%; filter: brightness(80%);}
+  50%  {top: 400px; left: 25%; filter: brightness(70%);}
+  75%  {top: 600px; left:30%; filter: brightness(60%);}
+  100% {top: 800px; left: 35%; filter: brightness(50%);}
+}
